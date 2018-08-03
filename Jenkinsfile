@@ -6,6 +6,7 @@ pipeline {
         stage('test1') {
           steps {
             sh 'pwd'
+            sh 'ls -l'
           }
         }
         stage('test2') {
