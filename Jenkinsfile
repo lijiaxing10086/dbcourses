@@ -9,7 +9,7 @@ pipeline {
             sh 'ls -l'
           }
         }
-        stage('test2') {
+        stage('test3') {
           steps {
             sh 'echo "test2"'
           }
