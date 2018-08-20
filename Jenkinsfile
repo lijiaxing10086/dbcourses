@@ -13,9 +13,10 @@ pipeline {
             echo 'ccc'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             echo 'xxxx'
+            sleep 3
           }
         }
       }
