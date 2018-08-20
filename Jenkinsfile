@@ -24,6 +24,7 @@ pipeline {
     stage('test3') {
       steps {
         echo 'aaa'
+        sleep 120
       }
     }
   }
