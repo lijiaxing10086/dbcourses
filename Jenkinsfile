@@ -13,16 +13,16 @@ pipeline {
             echo 'ccc'
           }
         }
-        stage('test2') {
+        stage('') {
           steps {
-            sh 'echo "test22222"'
+            echo 'xxxx'
           }
         }
       }
     }
     stage('test3') {
       steps {
-        sh 'echo "test33333"'
+        echo 'aaa'
       }
     }
   }
