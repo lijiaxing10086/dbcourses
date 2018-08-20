@@ -10,6 +10,7 @@ pipeline {
             echo 'aaa'
             input(message: 'input2', id: 'input2', ok: 'input2')
             echo 'bbb'
+            echo 'ccc'
           }
         }
         stage('test2') {
