@@ -16,7 +16,7 @@ pipeline {
         stage('error') {
           steps {
             echo 'xxxx'
-            sleep 3
+            sleep 60
           }
         }
       }
